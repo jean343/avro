@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/hamba/avro/internal/bytesx"
+	"github.com/jean343/avro/internal/bytesx"
 	"github.com/stretchr/testify/assert"
 )
 

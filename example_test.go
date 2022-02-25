@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hamba/avro"
+	"github.com/jean343/avro"
 )
 
 func ExampleParse() {

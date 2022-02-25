@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hamba/avro"
+	"github.com/jean343/avro"
 )
 
 type Superhero struct {
