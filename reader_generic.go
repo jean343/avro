@@ -118,11 +118,7 @@ func (r *Reader) ReadNext(schema Schema) interface{} {
 			return nil
 		}
 
-		key := schemaTypeName(schema)
-		obj := map[string]interface{}{}
-		obj[key] = r.ReadNext(types[idx])
-
-		return obj
+		return r.ReadNext(types[idx]) // JP
 
 	case Fixed:
 		size := schema.(*FixedSchema).Size()
